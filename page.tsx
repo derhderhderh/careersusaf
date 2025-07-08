@@ -153,7 +153,7 @@ export default function CareersPage() {
   })
 
   // Replace localhost URLs with your bot's hosted URL
-  const BOT_API_URL = process.env.NEXT_PUBLIC_BOT_API_URL || "https://your-bot-api-url.com"
+  const BOT_API_URL = process.env.NEXT_PUBLIC_BOT_API_URL || "https://acc1d220a697.ngrok-free.app"
 
   useEffect(() => {
     checkBotStatus()
